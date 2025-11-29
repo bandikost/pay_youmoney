@@ -1,16 +1,51 @@
-# React + Vite
+# Pay YouMoney
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Pay YouMoney** — это современное веб-приложение для управления платежами и финансовыми операциями. Проект реализован с использованием **Vite**, **React**, **Tailwind CSS** и других современных технологий фронтенда.  
 
-Currently, two official plugins are available:
+## Основные возможности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Регистрация и аутентификация пользователей.
+- Управление платежами и транзакциями.
+- Просмотр истории операций.
+- Адаптивный дизайн для мобильных и десктопных устройств.
+- Интеграция с сервером через **Axios**.
 
-## React Compiler
+## Технологии
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Фронтенд:** React, Vite, Tailwind CSS, Axios
+- **Бэкенд:** Node.js / Express 
+- **Контроль версий:** Git и GitHub
 
-## Expanding the ESLint configuration
+## Установка и запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Клонируйте репозиторий:
+
+```bash
+git clone https://github.com/bandikost/pay_youmoney.git
+```
+
+2. Установите зависимости:
+
+```bash
+npm install
+```
+
+3. Запустите проект в режиме разработки:
+
+```bash
+npm run dev
+```
+
+4. Перейдите в браузер по адресу:
+
+```
+http://localhost:5173
+```
+
+## Контакты
+
+Для вопросов и предложений обращайтесь: [твоя почта или GitHub профиль]
+
+---
+
+Проект открыт для улучшений и участия в разработке! 🚀
